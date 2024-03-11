@@ -1,6 +1,6 @@
 # MERN Fullstack Music Playlist App with Redux, emotion(Styled-Component), and Redux-Saga
 
-This is a fully functional music playlist application built using the MERN stack, Redux for state management, emotion(Styled-Components) for styling, and Redux-Saga for API handling and also firebase for store music and image of song.
+This is a fully functional music playlist application built using the MERN stack, Redux for state management, emotion(Styled-Components) for styling, and Redux-Saga for API handling, with Firebase for storing music and images of songs.
 
 ## In this app I used the following:-
 MongoDB - store all music information
@@ -20,12 +20,11 @@ Firebase - for store music and image of song.
 
 1. Clone the repository:
 
-$ git clone https://github.com/Dani-1138/mern-fullstack-music-playlist.git
-
+$ git clone https://github.com/Liul-Abera/mern-fullstack-music-app.git
 
 2. Install dependencies:
 
-$ npm install
+$  npm  install
 
 
 3. Create a .env file at the root directory of the project with the following contents:
@@ -81,7 +80,7 @@ $ npm run build
 │       ├── App.jsx
 │       └── app.js
 ├── server
-│   ├── configration
+│   ├── configuration
 │   ├── routes
 │   ├── models
 │   └── app.js
@@ -89,11 +88,11 @@ $ npm run build
 
 # Author - Liul Abera 
        
-        Alx-africa Student
-        liul Abera 
+        Alx-Africa Student
+        Liul Abera 
         
 
 
-# This app is created for the purpose of Alx Final portifolio project
+# This app is created for the purpose of Alx Final portifolio project 
 
 
