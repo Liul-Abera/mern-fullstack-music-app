@@ -336,8 +336,8 @@ export const MainControls = () => {
         <PlayingWrapper>
           <SongTitle>
             {`${
-              data[song]?.name.length > 50
-                ? data[song]?.name.slice(0, 50)
+              data[song]?.name?.length > 50
+                ? data[song]?.name?.slice(0, 50)
                 : data[song]?.name
             }`}{" "}
           </SongTitle>

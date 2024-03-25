@@ -264,8 +264,8 @@ export const BottomControl = () => {
             <MusicBottomImg src={data[song]?.imageURL} />
             <MusicBottomTitle>
               {`${
-                data[song]?.name.length > 10
-                  ? data[song]?.name.slice(0, 10)
+                data[song]?.name?.length > 10
+                  ? data[song]?.name?.slice(0, 10)
                   : data[song]?.name
               }`}{" "}
               <MusicBottomSubTitle>{data[song]?.artist}</MusicBottomSubTitle>

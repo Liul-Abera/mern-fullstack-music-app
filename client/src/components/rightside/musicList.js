@@ -62,12 +62,11 @@ export const SongListCard2 = () => {
     <>
       <SongList>
         {data ? (
-          data
-            .filter(
+          data?.filter(
               (data) =>
-                data.artist.toLowerCase().includes(search) ||
-                data.language.toLowerCase().includes(search) ||
-                data.name.toLowerCase().includes(search)
+                data?.artist?.toLowerCase().includes(search) ||
+                data?.language?.toLowerCase().includes(search) ||
+                data?.name?.toLowerCase().includes(search)
             )
             .map((songs, i) => (
               <MusicList

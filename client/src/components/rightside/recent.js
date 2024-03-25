@@ -272,9 +272,9 @@ const SongCard = () => {
         data
           .filter(
             (data) =>
-              data.artist.toLowerCase().includes(search) ||
-              data.language.toLowerCase().includes(search) ||
-              data.name.toLowerCase().includes(search)
+              data?.artist?.toLowerCase().includes(search) ||
+              data?.language?.toLowerCase().includes(search) ||
+              data?.name?.toLowerCase().includes(search)
           )
           .map((song, i) => (
             <MainDiv key={song._id} className="song-card-hover">

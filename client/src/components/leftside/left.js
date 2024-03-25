@@ -64,14 +64,12 @@ export const SongListCard = () => {
     <>
       <SongList>
         {data &&
-          data
-            .filter(
+          data?.filter(
               (data) =>
-                data.artist.toLowerCase().includes(search) ||
-                data.language.toLowerCase().includes(search) ||
-                data.name.toLowerCase().includes(search)
-            )
-            .map((songs, i) => (
+                data?.artist?.toLowerCase().includes(search) ||
+                data?.language?.toLowerCase().includes(search) ||
+                data?.name?.toLowerCase().includes(search)
+            )?.map((songs, i) => (
               <MusicList
                 onClick={() => setCurrentPlaySong(i)}
                 playing={song === i}
