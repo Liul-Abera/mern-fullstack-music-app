@@ -4,7 +4,7 @@ import { actionType } from "../action";
 
 export const SET_ALL_SONGS = "SET_ALL_SONGS";
 export const SET_RECENT_SONGS = "SET_RECENT_SONGS";
-const baseURL = "https://mern-fullstack-playlist-app.onrender.com/";
+const baseURL = "http://localhost:4000/";
 
 function* getProduct() {
   let allSongs = yield fetch(`${baseURL}api/songs/get-all`);
